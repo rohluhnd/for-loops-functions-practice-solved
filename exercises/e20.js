@@ -1,4 +1,3 @@
-
 // EXERCISE 20
 // Return and array of 2 arrays
 // (1 - an array of names that contain "a" in name, 2 - an array of names that don't have 'a' in name)
@@ -7,9 +6,16 @@
 
 export function separateNamesWithAFromRest(array) {
   // Your code goes here...
-
+  const arrayOfTwoArrays = [[], []];
+  for (let i = 0; i < array.length; i++) {
+    if (/a/.test(array[i])) {
+      arrayOfTwoArrays[0].push(array[i]);
+    } else {
+      arrayOfTwoArrays[1].push(array[i]);
+    }
+  }
+  return arrayOfTwoArrays;
 }
-
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-20"
