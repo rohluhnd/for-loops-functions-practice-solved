@@ -15,12 +15,6 @@ export function flatArrays(flatArraysData) {
   }
   return flattenedArray;
 }
-const flatArraysData = [
-  ["Yay", "!", "this"],
-  ["works", "as", "expected", "!"],
-];
-
-flatArrays(flatArraysData);
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-16"

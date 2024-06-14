@@ -5,7 +5,6 @@
 
 export function concatArrays(arr1, arr2) {
   // Your code goes here...
-
   const combinedArrays = [];
 
   for (let i = 0; i < arr1.length; i++) {

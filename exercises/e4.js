@@ -24,7 +24,6 @@ export function findMaxValueInArray(array) {
   }
   return max;
 }
-findMaxValueInArray([2, 45, 32, 3, 0, 46, 12]);
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-4"
 // If the test has all tests passed, switch to the next exercise file
